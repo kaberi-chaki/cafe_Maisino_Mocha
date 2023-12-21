@@ -17,14 +17,14 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/convo.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- font awesome cdn link -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"><!-- Favicon / Icon -->
+        <!--<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">--><!-- Favicon / Icon -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- Google font cdn link -->
     </head>
     <body>
         <!-- HEADER SECTION -->
         <header class="header">
             <a href="#" class="logo">
-                <img src="assets/images/logo.png" class="img-logo" alt="KapeTann Logo">
+                <!--<img src="assets/images/logo.png" class="img-logo" alt="KapeTann Logo">-->
             </a>
 
             <!-- MAIN MENU FOR SMALLER DEVICES -->
@@ -84,9 +84,9 @@
         <!-- HERO SECTION -->
         <section class="home" id="home">
             <div class="content">
-                <h3>Welcome to KapeTann Coffee Shop, mga kap!</h3>
+                <h3>Welcome to Cafe Maisino Mocha!</h3>
                 <p>
-                    <strong>We are open 4:00 PM to 9:00 PM.</strong>
+                    <strong>We are open 9:00 AM to 9:00 PM.</strong>
                 </p>
                 <a href="#menu" class="btn btn-dark text-decoration-none">Order Now!</a>
             </div>
@@ -100,9 +100,9 @@
                     <img src="assets/images/about-img.png" alt="" class="img-fluid">
                 </div>
                 <div class="content">
-                    <h3>Welcome to KapeTann!</h3>
+                    <h3>Welcome to CAFE MAISINO MOCHA!</h3>
                     <p>
-                        At KapeTann Coffee Shop, we are passionate about coffee and believe
+                        At CAFE MAISINO MOCHA, we are passionate about coffee and believe
                         that every cup tells a story. We are a cozy coffee shop located
                         in the heart of the city, dedicated to providing an exceptional
                         coffee experience to our customers. Our love for coffee has led
@@ -112,7 +112,7 @@
                     </p>
                     <p>
                         But coffee is not just a drink, it's an experience. Our warm and
-                        inviting atmosphere at KapeTann is designed to be a haven
+                        inviting atmosphere at CAFE MAISINO MOCHA is designed to be a haven
                         for coffee lovers, where they can relax, connect, and embark
                         on their own coffee voyages.
                     </p>
@@ -130,24 +130,24 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-1.png" alt="" class="product-img">
-                                <h3 class="product-title">Americano - Hot Espresso (12 OZ)</h3>
-                                <div class="price">₱45.00</div>
+                                <h3 class="product-title">Americano - Hot Espresso</h3>
+                                <div class="price">BDT 250</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-2.png" alt="" class="product-img">
-                                <h3 class="product-title">Colombian Supremo Cup (12 OZ)</h3>
-                                <div class="price">₱40.00</div>
+                                <h3 class="product-title">Colombian Supremo Cup </h3>
+                                <div class="price">BDT 400</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-3.png" alt="" class="product-img">
-                                <h3 class="product-title">Nitro Cold Brew w/ Straw (12 OZ)</h3>
-                                <div class="price">₱50.00</div>
+                                <h3 class="product-title">Nitro Cold Brew w/ Straw</h3>
+                                <div class="price">BDT 350</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div>
@@ -156,24 +156,24 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-4.png" alt="" class="product-img">
-                                <h3 class="product-title">Seasonal Single-Origin (12 OZ)</h3>
-                                <div class="price">₱30.00</div>
+                                <h3 class="product-title">Seasonal Single-Origin</h3>
+                                <div class="price">BDT 380</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-5.png" alt="" class="product-img">
-                                <h3 class="product-title">Indonesian Sumatra Mandheling (12 OZ)</h3>
-                                <div class="price">₱40.00</div>
+                                <h3 class="product-title">Indonesian Sumatra Mandheling</h3>
+                                <div class="price">BDT 290</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-6.png" alt="" class="product-img">
-                                <h3 class="product-title">Mint Mojito Iced Coffee (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <h3 class="product-title">Mint Mojito Iced Coffee</h3>
+                                <div class="price">BDT 180</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div>
@@ -182,24 +182,24 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-7.png" alt="" class="product-img">
-                                <h3 class="product-title">Iced Americano (12 OZ)</h3>
-                                <div class="price">₱35.00</div>
+                                <h3 class="product-title">Iced Americano</h3>
+                                <div class="price">BDT 470</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-8.png" alt="" class="product-img">
-                                <h3 class="product-title">Specialty Brews (12 OZ)</h3>
-                                <div class="price">₱85.00</div>
+                                <h3 class="product-title">Specialty Brews</h3>
+                                <div class="price">BDT 300</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-9.png" alt="" class="product-img">
-                                <h3 class="product-title">Seasonal Origin (12 OZ)</h3>
-                                <div class="price">₱80.00</div>
+                                <h3 class="product-title">Seasonal Origin</h3>
+                                <div class="price">BDT 210</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div>
@@ -208,24 +208,24 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-10.png" alt="" class="product-img">
-                                <h3 class="product-title">Ethiopian Yirgacheffe Cup (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <h3 class="product-title">Ethiopian Yirgacheffe Cup</h3>
+                                <div class="price">BDT 420</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-11.png" alt="" class="product-img">
-                                <h3 class="product-title">Cold Brew Tonic In a Cup (12 OZ)</h3>
-                                <div class="price">₱35.00</div>
+                                <h3 class="product-title">Cold Brew Tonic In a Cup</h3>
+                                <div class="price">BDT 320</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div><br />
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="assets/images/cart-item-12.png" alt="" class="product-img">
-                                <h3 class="product-title">Caramel Cold Foam Cold Brew (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <h3 class="product-title">Caramel Cold Foam Cold Brew</h3>
+                                <div class="price">BDT 570</div>
                                 <a class="btn add-cart" onclick="redirectCart()">Add to Cart</a>
                             </div>
                         </div>
@@ -421,11 +421,10 @@
                             <div class="box">
                                 <img src="assets/images/quote-img.png" alt="" class="quote">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Just mind blowing.WOW!
                                 </p>
                                 <img src="assets/images/pic-1.png" alt="" class="user">
-                                <h3>Jane Doe</h3>
+                                <h3>Kaberi Chaki</h3>
                                 <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -439,11 +438,10 @@
                             <div class="box">
                                 <img src="assets/images/quote-img.png" alt="" class="quote">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Coffee was very tempting and frothy.Just loved it.
                                 </p>
                                 <img src="assets/images/pic-2.png" alt="" class="user">
-                                <h3>John Doe</h3>
+                                <h3>Dipu Barman</h3>
                                 <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -457,11 +455,10 @@
                             <div class="box">
                                 <img src="assets/images/quote-img.png" alt="" class="quote">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    In a word,just mind blowing.
                                 </p>
                                 <img src="assets/images/pic-3.png" alt="" class="user">
-                                <h3>Jane Doe</h3>
+                                <h3>Pritha Moni Kar</h3>
                                 <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -499,13 +496,13 @@
         <section class="footer">
             <div class="footer-container">
                 <div class="logo">
-                    <img src="assets/images/logo.png" class="img"><br />
+                    <!-- <img src="assets/images/logo.png" class="img"><br /> -->
                     <i class="fas fa-envelope"></i>
-                    <p>abfiguerrez18@gmail.com</p><br />
+                    <p>kaberi18@cse.pstu.ac.bd</p><br />
                     <i class="fas fa-phone"></i>
-                    <p>+63 917-134-1422</p><br />
+                    <p>+8801614647085</p><br />
                     <i class="fab fa-facebook-messenger"></i>
-                    <p>@kapetanncoffee</p><br />
+                    <p>@CAFE MAISINO MOCHA</p><br />
                 </div>
                 <div class="support">
                     <h2>Support</h2>
@@ -535,8 +532,8 @@
                 </div>
                 <div class="credit">
                     <hr /><br/>
-                    <h2>KapeTann Brewed Coffee © 2023 | All Rights Reserved.</h2>
-                    <h2>Designed by <span>Algo Filipino</span> | Teravision</h2>
+                    <h2>CAFE MAISINO MOCHA © 2023 | All Rights Reserved.</h2>
+                    <h2>Designed by <span>Kaberi Chaki</span> | Teravision</h2>
                 </div>
             </div>
         </section>
