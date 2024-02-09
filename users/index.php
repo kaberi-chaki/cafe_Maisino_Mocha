@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-        <title>KapeTann Brewed Coffee Shop</title>
+        <title>CAFE MAISINO MOCHA</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -89,9 +89,9 @@
         <!-- HERO SECTION -->
         <section class="home" id="home">
             <div class="content">
-                <h3>Welcome to KapeTann Coffee Shop, <?php echo $_SESSION['username']; ?>!</h3>
+                <h3>Welcome to CAFE MAISINO MOCHA, <?php echo $_SESSION['username']; ?>!</h3>
                 <p>
-                    <strong>We are open 4:00 PM to 9:00 PM.</strong>
+                    <strong>We are open 9.00 AM to 9:00 PM.</strong>
                 </p>
                 <a href="#menu" class="btn btn-dark text-decoration-none">Order Now!</a>
             </div>
@@ -105,9 +105,9 @@
                     <img src="../assets/images/about-img.png" alt="" class="img-fluid">
                 </div>
                 <div class="content">
-                    <h3>Welcome to KapeTann!</h3>
+                    <h3>Welcome to CAFE MAISINO MOCHA!</h3>
                     <p>
-                        At KapeTann Coffee Shop, we are passionate about coffee and believe
+                        At , we are passionate about coffee and believe
                         that every cup tells a story. We are a cozy coffee shop located
                         in the heart of the city, dedicated to providing an exceptional
                         coffee experience to our customers. Our love for coffee has led
@@ -135,8 +135,8 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <img src="../assets/images/cart-item-1.png" alt="" class="product-img">
-                                <h3 class="product-title">Americano - Hot Espresso (12 OZ)</h3>
-                                <div class="price">₱45.00</div>
+                                <h3 class="product-title">Americano - Cold Espresso (12 OZ)</h3>
+                                <div class="price">BDT 120</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -144,7 +144,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-2.png" alt="" class="product-img">
                                 <h3 class="product-title">Colombian Supremo Cup (12 OZ)</h3>
-                                <div class="price">₱40.00</div>
+                                <div class="price">BDT 240.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -152,7 +152,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-3.png" alt="" class="product-img">
                                 <h3 class="product-title">Nitro Cold Brew w/ Straw (12 OZ)</h3>
-                                <div class="price">₱50.00</div>
+                                <div class="price">BDT 350.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-4.png" alt="" class="product-img">
                                 <h3 class="product-title">Seasonal Single-Origin (12 OZ)</h3>
-                                <div class="price">₱30.00</div>
+                                <div class="price">BDT 430.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -170,7 +170,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-5.png" alt="" class="product-img">
                                 <h3 class="product-title">Indonesian Sumatra Mandheling (12 OZ)</h3>
-                                <div class="price">₱40.00</div>
+                                <div class="price">BDT 440.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -178,7 +178,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-6.png" alt="" class="product-img">
                                 <h3 class="product-title">Mint Mojito Iced Coffee (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <div class="price">BDT 450.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-7.png" alt="" class="product-img">
                                 <h3 class="product-title">Iced Americano (12 OZ)</h3>
-                                <div class="price">₱35.00</div>
+                                <div class="price">BDT 350.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -196,7 +196,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-8.png" alt="" class="product-img">
                                 <h3 class="product-title">Specialty Brews (12 OZ)</h3>
-                                <div class="price">₱85.00</div>
+                                <div class="price">BDT 450.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -204,7 +204,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-9.png" alt="" class="product-img">
                                 <h3 class="product-title">Seasonal Origin (12 OZ)</h3>
-                                <div class="price">₱80.00</div>
+                                <div class="price">BDT 380.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div>
@@ -214,7 +214,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-10.png" alt="" class="product-img">
                                 <h3 class="product-title">Ethiopian Yirgacheffe Cup (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <div class="price">BDT 430.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -222,7 +222,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-11.png" alt="" class="product-img">
                                 <h3 class="product-title">Cold Brew Tonic In a Cup (12 OZ)</h3>
-                                <div class="price">₱35.00</div>
+                                <div class="price">BDT 435.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div><br />
@@ -230,7 +230,7 @@
                             <div class="box">
                                 <img src="../assets/images/cart-item-12.png" alt="" class="product-img">
                                 <h3 class="product-title">Caramel Cold Foam Cold Brew (12 OZ)</h3>
-                                <div class="price">₱55.00</div>
+                                <div class="price">BDT 450.00</div>
                                 <a class="btn add-cart">Add to Cart</a>
                             </div>
                         </div>

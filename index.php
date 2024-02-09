@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-        <title>KapeTann Brewed Coffee Shop</title>
+        <title>CAFE MAISINO MOCHA</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
         <!-- HEADER SECTION -->
         <header class="header">
             <a href="#" class="logo">
-                <!--<img src="assets/images/logo.png" class="img-logo" alt="KapeTann Logo">-->
+                <!-- <img src="assets/images/logo.png" class="img-logo" alt="KapeTann Logo"> -->
             </a>
 
             <!-- MAIN MENU FOR SMALLER DEVICES -->
@@ -477,7 +477,15 @@
         <section class="contact" id="contact">
             <h1 class="heading"><span>Contact</span> Us</h1>
             <div class="row">
-                <div id="map" class="map pull-left"></div>
+                <div id="map" class="map pull-left">
+                    <h1>Explore Our Location</h1>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7374.066492568468!2d90.37486994249596!3d22.465384918272637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30aacf2fe39e501f%3A0xec70c954a51b0386!2sPatuakhali%20Science%20%26%20Technology%20University%20(PSTU)!5e0!3m2!1sen!2sbd!4v1707316415325!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <a href="#" class="button">
+                         View on Google Maps
+                    </a>
+                </div>
                 <form name="contact" method="POST" action="https://formspree.io/f/xayzavgb">
                     <h3> Get in touch with us!</h3>
                     <div class="inputBox">

@@ -1,0 +1,12 @@
+#Login - users/login.php
+
+SELECT * FROM `users` WHERE username='$username'
+AND password='" . md5($password) . "'
+
+
+#Cart - users/cart.php
+
+INSERT INTO cart (title, price, quantity, total, date_created) VALUES ('$title', '$price', '$quantity', '$total', '$currentDate');
+
+
+#
